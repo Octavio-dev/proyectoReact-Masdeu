@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import react, {Component} from "react";
+import "./App.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Mi primer proyecto React.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/Octavio-dev/proyectoReact-Masdeu"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          tocá acá
-        </a>
-      </header>
-    </div>
-  );
+//render() solo se usa en class
+
+class App extends Component {
+  render() {
+    return (
+      <div className = "header">
+        <h1>Hola crack</h1>
+        <h2>Que onda</h2>
+      </div>
+    )
+  }
 }
 
-export default App;
+/* class App extends Component {
+  render() {
+
+    return (
+      <Fragment>
+        <h1>Hola crack</h1>
+        <h2>Que onda</h2>
+      </Fragment>
+    )
+  }
+} */
+
+export default App
