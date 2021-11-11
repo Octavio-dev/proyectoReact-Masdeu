@@ -1,10 +1,14 @@
 import React from "react";
 import "./Header.css"
 
-const Header = () => {
+
+const Header = ({title, subtitle, img, color}) => {
+
     return (
-        <div className="header">
-            <h1>Esto es un Header</h1>
+        <div style={{backgroundColor : `${color}`}} className="header">
+            <h1>{title}</h1>
+            <h2>{subtitle}</h2>
+            <background src={img}></background>
         </div>
     )
 }
