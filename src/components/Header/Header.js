@@ -2,13 +2,19 @@ import React from "react";
 import "./Header.css"
 
 
-const Header = ({title, subtitle, img}) => {
+const Header = ({title}) => {
 
     return (
         <div className="Header">
             <h1>{title}</h1>
-            <h2>{subtitle}</h2>
-            <background src={img}></background>
+            <div>
+                <ul className="navBar">
+                    <li><a href="">menu</a></li>
+                    <li><a href="">menu</a></li>
+                    <li><a href="">menu</a></li>
+                    <li><a href="">menu</a></li>
+                </ul>
+            </div>
         </div>
     )
 }

@@ -4,4 +4,12 @@
   align-items: center;
   color: aquamarine;
   text-align: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.App{
+  background-image: url(./components/Header/fondoGuitarra.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }

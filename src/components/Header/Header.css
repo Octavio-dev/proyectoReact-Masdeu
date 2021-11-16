@@ -1,23 +1,36 @@
 .Header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    height: 20vh;
+    position: relative;
+    height: 25vh;
     width: 100%;
-    border: black 1px solid;
-    background-image: url(./logoElednRing.jpg);
+    background-image: url(./banner.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
+
 .Header h1 {
-    color: black;
+    position: absolute;
+    top: 15%;
+    color: blueviolet;
     font-size: 4rem;
 }
 
-h2{
-    font-size: 3rem;
-    color: black;
+.navBar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBar li {
+    margin: 1rem 2rem;
+    text-align: left;
+    color: white;
+}
+
+.navBar li a{
+    color: yellow;
 }

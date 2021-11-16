@@ -4,7 +4,7 @@ import "./App.css"
 //Components
 import Header from "./components/Header/Header"
 import UserCard from "./components/UserCard/UserCard";
-import logo from "./components/Header/logoElednRing.jpg"
+import logo from "./components/Header/banner.png"
 
 //render() solo se usa en class
 
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header title="Hola" subtitle ="que haces" img = {logo}/>
+        <Header title="Titulo" subtitle ="SubTiulo" img = {logo}/>
         <div className = "contenedor">
           <UserCard name = "potaxio" date = "Se unio en 11/11/21" description = "developer prefesional" img ="https://react.semantic-ui.com/images/avatar/large/matthew.png"/>
           <UserCard name = "ElGero" date = "Se unio en 12/11/21" description = "developer prefesional" img ="https://react.semantic-ui.com/images/avatar/large/matthew.png"/>
