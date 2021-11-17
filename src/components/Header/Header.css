@@ -29,6 +29,7 @@
     margin: 1rem 2rem;
     text-align: left;
     color: white;
+    list-style: none;
 }
 
 .navBar li a{
