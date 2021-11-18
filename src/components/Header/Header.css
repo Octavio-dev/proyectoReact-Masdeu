@@ -14,19 +14,3 @@
     font-size: 4rem;
 }
 
-.navBar{
-    display: flex;
-    justify-content: space-around;
-    margin: 1.5rem 0 ;
-}
-
-.navBar li {
-    margin: 1rem 2rem;
-    text-align: left;
-    color: white;
-    list-style: none;
-}
-
-.navBar li a{
-    color: yellow;
-}

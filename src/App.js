@@ -25,16 +25,5 @@ class App extends Component {
   }
 }
 
-/* class App extends Component {
-  render() {
-
-    return (
-      <Fragment>
-        <h1>Hola crack</h1>
-        <h2>Que onda</h2>
-      </Fragment>
-    )
-  }
-} */
 
 export default App
