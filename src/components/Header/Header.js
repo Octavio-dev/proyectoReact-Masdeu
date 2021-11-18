@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css"
+import {icon} from "semantic-ui-react"
 
 
 const Header = ({title,a1,a2,a3,a4}) => {
@@ -14,6 +15,7 @@ const Header = ({title,a1,a2,a3,a4}) => {
                     <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a3}</a></li>
                     <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a4}</a></li>
                 </ul>
+                <icon name ="shopping cart" />
             </div>
         </div>
     )
