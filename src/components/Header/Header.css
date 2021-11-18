@@ -1,21 +1,15 @@
 .Header{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     position: relative;
     height: 25vh;
     width: 100%;
-    background-image: url(./banner.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
 }
 
 
 .Header h1 {
-    position: absolute;
-    top: 15%;
     color: blueviolet;
     font-size: 4rem;
 }
@@ -23,6 +17,7 @@
 .navBar{
     display: flex;
     justify-content: space-around;
+    margin: 1.5rem 0 ;
 }
 
 .navBar li {
