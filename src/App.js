@@ -4,7 +4,6 @@ import "./App.css"
 //Components
 import Header from "./components/Header/Header"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-import ItemList from "./components/ItemListContainer/ItemListContainer";
 
 //imagenes provisionales
 import lesPaul from "./components/ItemListContainer/lesPaul.png"
