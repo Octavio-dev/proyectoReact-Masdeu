@@ -1,18 +1,18 @@
 import React from "react";
 import "./NavBar.css"
-import {Icon} from "semantic-ui-react"
+import Icono from "./cartWidjet";
 
 function NavBar ({a1,a2,a3,a4}) {
 
     return(
-        <div>
+        <div className="navContenedor">
             <ul className="navBar">
                 <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a1}</a></li>
                 <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a2}</a></li>
                 <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a3}</a></li>
                 <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a4}</a></li>
             </ul>
-            <Icon color ="brown" name ="shopping cart" size="big" link />
+            <Icono />
         </div>
 
     )
