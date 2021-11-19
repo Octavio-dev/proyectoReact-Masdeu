@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Image } from 'semantic-ui-react'
 
-const ItemList = ({name, date, description, img}) => (
+const ItemListContainer = ({name, date, description, img}) => (
   <Card>
     <Image src ={img} wrapped ui={false} />
     <Card.Content>
@@ -16,4 +16,4 @@ const ItemList = ({name, date, description, img}) => (
   </Card>
 )
 
-export default ItemList
+export default ItemListContainer

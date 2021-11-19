@@ -4,7 +4,7 @@ import {Icon} from "semantic-ui-react"
 function Icono() {
 
     return(
-            <Icon name = "shopping cart" color ="brown" size="big"/>
+            <a href=""><Icon name = "shopping cart" color ="yellow" size="big"/></a>
     )
 }
 
