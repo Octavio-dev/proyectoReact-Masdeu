@@ -1,7 +1,16 @@
 import React from 'react'
+
+//semanticUi
 import { Card, Image } from 'semantic-ui-react'
 
-const ItemListContainer = ({name, date, description, img}) => (
+//componentes
+import ItemCount from '../ItemCount/ItemCount'
+
+
+
+const ItemListContainer = ({name, date, description, img}) => {
+
+  return(
   <Card>
     <Image src ={img} wrapped ui={false} />
     <Card.Content>
@@ -13,7 +22,11 @@ const ItemListContainer = ({name, date, description, img}) => (
         {description}
       </Card.Description>
     </Card.Content>
+    <Card.Content extra>
+      <ItemCount />
+    </Card.Content>
   </Card>
-)
+  )
+  }
 
 export default ItemListContainer
