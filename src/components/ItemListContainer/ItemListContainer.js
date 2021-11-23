@@ -8,7 +8,7 @@ import ItemCount from '../ItemCount/ItemCount'
 
 
 
-const ItemListContainer = ({name, date, description, img}) => {
+const ItemListContainer = ({name, date, description, img, stock}) => {
 
   return(
   <Card>
@@ -23,7 +23,7 @@ const ItemListContainer = ({name, date, description, img}) => {
       </Card.Description>
     </Card.Content>
     <Card.Content extra>
-      <ItemCount />
+      <ItemCount stock={stock} init={0} />
     </Card.Content>
   </Card>
   )

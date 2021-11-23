@@ -20,9 +20,9 @@ class App extends Component {
       <div className="App">
         <Header title="Percusion" a1="Electricas" a2="ElectroAcusticas" a3="Acusticas" a4="Criollas" />
         <div className = "contenedor">
-          <ItemListContainer name = "Les Paul 01" date = "$1200" description = "Saxofon" img ={lesPaul} />
-          <ItemListContainer name = "Les Paul 02" date = "$1200" description = "bateria" img ={lesPaul02} />
-          <ItemListContainer name = "Les Paul 03" date = "$1200" description = "Violin" img ={lesPaul03} />
+          <ItemListContainer name = "Les Paul 01" date = "$1200" description = "Saxofon" img ={lesPaul} stock={5}/>
+          <ItemListContainer name = "Les Paul 02" date = "$1200" description = "bateria" img ={lesPaul02} stock={9}/>
+          <ItemListContainer name = "Les Paul 03" date = "$1200" description = "Violin" img ={lesPaul03} stock={1}/>
         </div>
       </div>
     )

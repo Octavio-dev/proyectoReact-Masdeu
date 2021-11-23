@@ -1,20 +1,25 @@
 import React, {useState} from "react";
 
-const ItemCount = () => {
+const ItemCount = ({stock, init}) => {
 
-    const [stock, setStock] = useState(0)
+    const [cantidad, setCantidad] = useState(init)
 
-    const aumentar = () => setStock(stock + 1)
+    const aumentar = () => {
+        if(cantidad < stock){
+            setCantidad(cantidad + 1)
+        }
+    }
     const disminuir = () => {
-        if(stock >= 1){           
-            setStock(stock - 1)
+        if(cantidad >= 1){           
+            setCantidad(cantidad - 1)
         }
     }
 
     return(
         <>
             <div>
-                <p>Cantidad:{stock}</p>
+                <p>Cantidad:{cantidad}</p>
+                <small>Stock:{stock}</small>
             </div>
             <div>
                 <button onClick={disminuir}>-</button>
