@@ -9,6 +9,7 @@ import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import lesPaul from "./components/ItemListContainer/lesPaul.png"
 import lesPaul02 from "./components/ItemListContainer/lesPaul02.jpg"
 import lesPaul03 from "./components/ItemListContainer/lesPaul03.jpg"
+import violin02 from "./components/ItemListContainer/violin02.png"
 
 //variables
 const stock = 0
@@ -23,6 +24,7 @@ class App extends Component {
           <ItemListContainer name = "Les Paul 01" date = "$1200" description = "Saxofon" img ={lesPaul} stock={5}/>
           <ItemListContainer name = "Les Paul 02" date = "$1200" description = "bateria" img ={lesPaul02} stock={9}/>
           <ItemListContainer name = "Les Paul 03" date = "$1200" description = "Violin" img ={lesPaul03} stock={1}/>
+          <ItemListContainer name = "Stradivarius" date="$500.000" description = "Violin" img={violin02} stock = {0}/>
         </div>
       </div>
     )

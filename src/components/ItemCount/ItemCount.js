@@ -1,9 +1,11 @@
 import React, {useState} from "react";
+import { Icon } from 'semantic-ui-react'
 
 const ItemCount = ({stock, init}) => {
 
     const [cantidad, setCantidad] = useState(init)
 
+    //funciones para aumentar o disminuir la cantidad
     const aumentar = () => {
         if(cantidad < stock){
             setCantidad(cantidad + 1)
@@ -22,8 +24,8 @@ const ItemCount = ({stock, init}) => {
                 <small>Stock:{stock}</small>
             </div>
             <div>
-                <button onClick={disminuir}>-</button>
-                <button onClick={aumentar}>+</button>
+                <a onClick={disminuir}> <Icon name="minus circle" size="large"/> </a>
+                <a onClick={aumentar}> <Icon name="plus circle" size="large"/> </a>
             </div>   
         </>
     )
