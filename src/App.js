@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header title="Percusion" a1="Electricas" a2="ElectroAcusticas" a3="Acusticas" a4="Criollas" />
+        <Header title="MI SOL" a1="Electricas" a2="ElectroAcusticas" a3="Acusticas" a4="Criollas" />
         <div className = "contenedor">
           <ItemListContainer />
         </div>
