@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 //componentes
 import Item from "../Item/Item"
@@ -11,13 +11,17 @@ import violin from "./violin02.png"
 
 const ItemList = () => {
 
+    const [productos, setProductos] = useState([])
+
+    useEffect( () => {
+        fetch("productos.json")
+        .then((response) => response.json())
+        .then((json) => setProductos(json))
+    },[])
 
     return(
         <>
-            <Item name="guitar" description="guitarra en español" img={lesPaul01} stock={10}/>
-            <Item name="guitar2" description="guitarra2 en español" img={lesPaul02} stock={5}/>
-            <Item name="guitar3" description="guitarra3 en español" img={lesPaul03} stock={2}/>
-            <Item name="violin" description="violin en español" img={violin} stock={0}/>
+            {productos.map((producto) => <Item  name={producto.tipo} description={producto.name} precio={producto.precio} img={producto.img} stock={producto.stock} key={producto.id}/>)}
         </>
     )
 }

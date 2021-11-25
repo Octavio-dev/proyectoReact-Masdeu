@@ -6,7 +6,7 @@ import {Image, Card, CardContent, CardHeader, CardDescription} from "semantic-ui
 //componentes
 import ItemCount from "../ItemCount/ItemCount";
 
-const Item = ({img, name, description, stock}) => {
+const Item = ({img, name, description, stock, precio}) => {
 
 
     return(
@@ -15,6 +15,7 @@ const Item = ({img, name, description, stock}) => {
             <CardContent>
                 <CardHeader>{name}</CardHeader>
                 <CardDescription>{description}</CardDescription>
+                <CardDescription>${precio}</CardDescription>
             </CardContent>
             <CardContent extra>
                 <ItemCount stock={stock} init={0}/>
