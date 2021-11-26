@@ -4,9 +4,8 @@ import React from "react";
 import {Image, Card, CardContent, CardHeader, CardDescription} from "semantic-ui-react"
 
 //componentes
-import ItemCount from "../ItemCount/ItemCount";
 
-const Item = ({img, name, description, stock, precio}) => {
+const Item = ({img, name, description}) => {
 
 
     return(
@@ -15,11 +14,7 @@ const Item = ({img, name, description, stock, precio}) => {
             <CardContent>
                 <CardHeader>{name}</CardHeader>
                 <CardDescription>{description}</CardDescription>
-                <CardDescription>${precio}</CardDescription>
-            </CardContent>
-            <CardContent extra>
-                <ItemCount stock={stock} init={0}/>
-            </CardContent>    
+            </CardContent>  
         </Card>   
     )
 }

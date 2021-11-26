@@ -5,7 +5,7 @@ import ItemList from '../ItemList/ItemList'
 
 
 
-const ItemListContainer = ({name, date, description, img, stock}) => {
+const ItemListContainer = () => {
 
   return(
       <ItemList />

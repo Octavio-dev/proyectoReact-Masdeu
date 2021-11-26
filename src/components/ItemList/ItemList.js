@@ -19,7 +19,7 @@ const ItemList = () => {
 
     return(
         <>
-            {productos.map((producto) => <Item  name={producto.tipo} description={producto.name} precio={producto.precio} img={producto.img} stock={producto.stock} key={producto.id}/>)}
+            {productos.map((producto) => <Item  name={producto.tipo} description={producto.name} img={producto.img} key={producto.id}/>)}
         </>
     )
 }
