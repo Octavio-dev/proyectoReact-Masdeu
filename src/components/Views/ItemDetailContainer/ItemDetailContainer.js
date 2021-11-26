@@ -18,9 +18,9 @@ const ItemDetailContainer = () => {
     })
 
     return(
-        <div className="ItemDetailContainer">  
-            {productos.map((producto) => <ItemDetail producto={producto}/>)}
-        </div>
+        <>
+        {productos.map((producto) => <ItemDetail producto={producto}/>)}
+        </>
     )
 }
 
