@@ -1,7 +1,7 @@
 import React from 'react'
 
 //componentes
-import ItemList from '../ItemList/ItemList'
+import ItemList from '../../ItemList/ItemList'
 
 
 

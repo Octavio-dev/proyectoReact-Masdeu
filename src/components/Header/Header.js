@@ -1,5 +1,13 @@
 import React from "react";
+
+//Router
+
+import { Link } from "react-router-dom";
+
+//components
 import NavBar from "../NavBar/NavBar";
+
+//css
 import "./Header.css"
 
 
@@ -7,7 +15,7 @@ const Header = ({title}) => {
     return (
         
         <div className="Header">
-            <h1>{title}</h1>
+            <Link className="titulo" to="/">{title}</Link>
             <NavBar a1="Guitarras" a2 ="Violines" a3="Bajo" a4="Flautas"/>                
         </div>
     )

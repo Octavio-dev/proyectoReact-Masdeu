@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 
 //componentes
 
-import ItemDetail from "../ItemDetail/ItemDetail"
+import ItemDetail from "../../ItemDetail/ItemDetail"
 
 //css
  import "./ItemDetailContainer.css"
