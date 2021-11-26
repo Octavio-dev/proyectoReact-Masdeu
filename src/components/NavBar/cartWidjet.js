@@ -1,11 +1,11 @@
 import React from "react"
 import {Icon} from "semantic-ui-react"
 
-function Icono() {
+function CartWidjet() {
 
     return(
-            <a href=""><Icon name = "shopping cart" color ="yellow" size="big"/></a>
+            <button><Icon name = "shopping cart" color ="yellow" size="big"/></button>
     )
 }
 
-export default Icono
+export default CartWidjet

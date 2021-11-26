@@ -24,8 +24,8 @@ const ItemCount = ({stock, init}) => {
                 <small>Stock:{stock}</small>
             </div>
             <div>
-                <a onClick={disminuir}> <Icon name="minus circle" size="large"/> </a>
-                <a onClick={aumentar}> <Icon name="plus circle" size="large"/> </a>
+                <button onClick={disminuir}> <Icon name="minus circle" size="large"/> </button>
+                <button onClick={aumentar}> <Icon name="plus circle" size="large"/> </button>
             </div>   
         </>
     )

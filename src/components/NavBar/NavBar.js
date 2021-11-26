@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css"
-import Icono from "./cartWidjet";
+import CartWidjet from "./cartWidjet";
 
 function NavBar ({a1,a2,a3,a4}) {
 
@@ -12,7 +12,7 @@ function NavBar ({a1,a2,a3,a4}) {
                 <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a3}</a></li>
                 <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a4}</a></li>
             </ul>
-            <Icono />
+            <CartWidjet />
         </div>
 
     )
