@@ -7,16 +7,16 @@ import {Image, Card, CardContent, CardHeader, CardDescription} from "semantic-ui
 
 //componentes
 
-const Item = ({img, name, description}) => {
+const Item = ({producto}) => {
 
 
     return(
-        <Link to="/item:id">
+        <Link to={"/item" + producto.id}>
         <Card>
-            <Image src={img} />
+            <Image src={producto.img} />
             <CardContent>
-                <CardHeader>{name}</CardHeader>
-                <CardDescription>{description}</CardDescription>
+                <CardHeader>{producto.tipo}</CardHeader>
+                <CardDescription>{producto.name}</CardDescription>
             </CardContent>  
         </Card>
         </Link>   

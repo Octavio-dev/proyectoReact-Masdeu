@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import { useParams } from "react-router";
 
 //componentes
 
@@ -10,16 +11,18 @@ import ItemDetail from "../../ItemDetail/ItemDetail"
 const ItemDetailContainer = () => {
 
     const [productos, setProductos] = useState([])
+    let {id} = useParams()
 
     useEffect( () => {
         fetch("productos.json")
         .then((response) => response.json())
-        .then((json) => setProductos(json))
-    })
+        .then((json) => setProductos((json)[id - 1]))
+    },[id])
+
 
     return(
         <>
-        {productos.map((producto) => <ItemDetail producto={producto}/>)}
+         <ItemDetail productos={productos} />
         </>
     )
 }
