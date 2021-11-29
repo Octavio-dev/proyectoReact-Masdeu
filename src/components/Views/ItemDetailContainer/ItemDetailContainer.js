@@ -14,9 +14,13 @@ const ItemDetailContainer = () => {
     let {id} = useParams()
 
     useEffect( () => {
-        fetch("productos.json")
-        .then((response) => response.json())
-        .then((json) => setProductos((json)[id - 1]))
+
+        setTimeout(() => {
+
+            fetch("productos.json")
+            .then((response) => response.json())
+            .then((json) => setProductos((json)[id - 1]))
+        },1000)
     },[id])
 
 
