@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 
 //componentes
 
-import ItemDetail from "../../ItemDetail/ItemDetail"
+import ItemDetail from "../../components/ItemDetail/ItemDetail"
 
 //css
  import "./ItemDetailContainer.css"

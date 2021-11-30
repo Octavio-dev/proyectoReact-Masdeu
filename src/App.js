@@ -7,8 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //Components
 import Header from "./components/Header/Header"
-import ItemListContainer from "./components/Views/ItemListContainer/ItemListContainer";
-import ItemDetailContainer from "./components/Views/ItemDetailContainer/ItemDetailContainer";
+import ItemListContainer from "./views/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./views/ItemDetailContainer/ItemDetailContainer";
 
 
 
