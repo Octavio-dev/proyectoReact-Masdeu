@@ -23,7 +23,7 @@
             "modelo": "Telecaster",
             "precio": 85000,
             "stock": 5,
-            "img":"/img/fenderTelecaster.png",
+            "img":"/img/fenderTelecaster.jpg",
             "id":2,
             "descripcion": {
                 "maderaCuerpo": "pino",
@@ -43,6 +43,60 @@
             "stock": 2,
             "img":"/img/fenderLead.jpg",
             "id":3,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "YAMAHA",
+            "modelo": "SG",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/yamahaSg.jpg",
+            "id":4,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "YAMAHA",
+            "modelo": "Pacifica",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/yamahaPacifica.jpg",
+            "id":5,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "YAMAHA",
+            "modelo": "Revstar",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/yamahaRevstar.jpg",
+            "id":6,
             "descripcion": {
                 "maderaCuerpo": "pino",
                 "maderaMastil": "maple",
