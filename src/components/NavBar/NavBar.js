@@ -1,5 +1,13 @@
 import React from "react";
+
+//Router
+
+import { Link } from "react-router-dom";
+
+//CSS
 import "./NavBar.css"
+
+//Componentes
 import CartWidjet from "./cartWidjet";
 
 function NavBar ({a1,a2,a3,a4}) {
@@ -7,10 +15,10 @@ function NavBar ({a1,a2,a3,a4}) {
     return(
         <div className="navContenedor">
             <ul className="navBar">
-                <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a1}</a></li>
-                <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a2}</a></li>
-                <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a3}</a></li>
-                <li><a href="https://github.com/Octavio-dev/proyectoReact-Masdeu.git">{a4}</a></li>
+                <Link className="Link" to="/">{a1}</Link>
+                <Link className="Link" to="/">{a2}</Link>
+                <Link className="Link" to="/">{a3}</Link>
+                <Link className="Link" to="/">{a4}</Link>
             </ul>
             <CartWidjet />
         </div>
