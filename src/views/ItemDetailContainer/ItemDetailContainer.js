@@ -19,7 +19,7 @@ const ItemDetailContainer = () => {
 
             fetch("productos.json")
             .then((response) => response.json())
-            .then((json) => setProductos((json)[id - 1]))
+            .then((json) => setProductos((json.guitarras)[id-1]))
         },1000)
     },[id])
 

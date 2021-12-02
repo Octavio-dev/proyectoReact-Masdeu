@@ -1,26 +1,61 @@
-[
-    {
-        "tipo":"Guitarra",
-        "name":"Fender Stratocaster",
-        "precio":3000,
-        "stock":5,
-        "img":"https://img1.freepng.es/20180125/tpq/kisspng-fender-stratocaster-fender-bullet-gibson-les-paul-red-electric-guitar-5a6a92d274a2b3.4475490615169338424778.jpg",
-        "id":1
-    },
-    {
-        "tipo":"Guitarra",
-        "name":"Gibson LesPaul",
-        "precio":5000,
-        "stock":10,
-        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Gibson_LP_Classic.png/800px-Gibson_LP_Classic.png",
-        "id":2
-    },
-    {
-        "tipo":"Guitarra",
-        "name":"Gibson SG",
-        "precio":7000,
-        "stock":2,
-        "img":"https://http2.mlstatic.com/D_NQ_NP_940247-MLA31583451182_072019-W.jpg",
-        "id":3
-    }
-]
+{
+    "guitarras":[
+        {
+            "marca": "FENDER",
+            "modelo": "Stratocaster",
+            "precio": 125000,
+            "stock": 7,
+            "img":"/img/fenderStratocaster.jpg",
+            "id":1,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": true,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "FENDER",
+            "modelo": "Telecaster",
+            "precio": 85000,
+            "stock": 5,
+            "img":"/img/fenderTelecaster.png",
+            "id":2,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "FENDER",
+            "modelo": "Lead",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/fenderLead.jpg",
+            "id":3,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        }
+    ],
+    "bajos":[
+
+    ]
+}

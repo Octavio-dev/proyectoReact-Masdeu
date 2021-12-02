@@ -15,8 +15,8 @@ const Item = ({producto}) => {
         <Card>
             <Image src={producto.img} />
             <CardContent>
-                <CardHeader>{producto.tipo}</CardHeader>
-                <CardDescription>{producto.name}</CardDescription>
+                <CardHeader>{producto.marca}</CardHeader>
+                <CardDescription>{producto.modelo}</CardDescription>
             </CardContent>  
         </Card>
         </Link>   

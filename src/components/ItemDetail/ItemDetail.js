@@ -14,8 +14,8 @@ const ItemDetail = ({productos}) => {
         <Card>
             <Image src={productos.img} />
             <CardContent>
-                <CardHeader>{productos.name}</CardHeader>
-                <CardDescription>{productos.description}</CardDescription>
+                <CardHeader>{productos.marca}</CardHeader>
+                <CardDescription>{productos.modelo}</CardDescription>
                 <CardDescription>${productos.precio}</CardDescription>
             </CardContent>
             <CardContent extra>

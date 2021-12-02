@@ -13,7 +13,7 @@ const ItemList = () => {
 
             fetch("productos.json")
             .then((response) => response.json())
-            .then((json) => setProductos(json))
+            .then((json) => setProductos(json.guitarras))
         },2000)
     },[])
 
