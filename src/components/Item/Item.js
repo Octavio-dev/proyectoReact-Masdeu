@@ -1,6 +1,10 @@
 import React from "react";
 
+//ROUTER
 import { Link } from "react-router-dom";
+
+//CSS
+import "./Item.css"
 
 //semantic ui
 import {Image, Card, CardContent, CardHeader, CardDescription} from "semantic-ui-react"
@@ -11,10 +15,10 @@ const Item = ({producto}) => {
 
 
     return(
-        <Link to={"/item" + producto.id}>
-        <Card>
-            <Image src={producto.img} />
-            <CardContent>
+        <Link className="Item" to={"/item" + producto.id}>
+        <Card className="Card">
+            <Image className="CardImg" src={producto.img} />
+            <CardContent className="Content">
                 <CardHeader>{producto.marca}</CardHeader>
                 <CardDescription>{producto.modelo}</CardDescription>
             </CardContent>  

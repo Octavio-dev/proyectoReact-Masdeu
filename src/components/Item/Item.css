@@ -1,0 +1,24 @@
+.Card{
+    height: 600px;
+    filter: grayscale(1);
+}
+
+.Card:hover{
+    transform: scale(1.12);
+    filter: none;
+}
+
+.Item{
+    margin: 2rem;
+}
+
+.CardImg{
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.Content{
+    height: 150px;
+    width: auto;
+}
