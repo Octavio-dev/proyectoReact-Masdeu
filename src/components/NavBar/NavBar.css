@@ -17,3 +17,18 @@
     list-style: none;
     color: yellow;
 }
+
+.cart{
+    position: fixed;
+    right: 1%;
+    top: 15%;
+    width: 3rem;
+    height: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.iconCart{
+    position: absolute;
+}

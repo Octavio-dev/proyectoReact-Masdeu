@@ -16,7 +16,7 @@ const Item = ({producto}) => {
 
     return(
         <Link className="Item" to={"/item" + producto.id}>
-        <Card className="Card">
+        <Card className="Card" color="orange">
             <Image className="CardImg" src={producto.img} />
             <CardContent className="Content">
                 <CardHeader>{producto.marca}</CardHeader>

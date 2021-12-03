@@ -4,7 +4,7 @@ import {Icon} from "semantic-ui-react"
 function CartWidjet() {
 
     return(
-            <button><Icon name = "shopping cart" color ="yellow" size="big"/></button>
+            <button className="cart"><Icon className="iconCart" name = "shopping cart" color ="yellow" size="big"/></button>
     )
 }
 

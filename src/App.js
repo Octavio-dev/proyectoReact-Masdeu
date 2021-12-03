@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-        <Header title="MI SOL" a1="Electricas" a2="ElectroAcusticas" a3="Acusticas" a4="Criollas" />
+        <Header title="MI SOL"  />
         <div className = "contenedor">
           <Routes >
             <Route  path="/" element={<ItemListContainer />}/>
