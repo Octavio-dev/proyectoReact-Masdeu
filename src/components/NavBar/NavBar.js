@@ -10,7 +10,7 @@ import "./NavBar.css"
 //Componentes
 import CartWidjet from "./cartWidjet";
 
-function NavBar ({a1,a2,a3,a4}) {
+function NavBar ({a1,a2,a3,a4,a5, a6}) {
 
     return(
         <div className="navContenedor">
@@ -19,6 +19,8 @@ function NavBar ({a1,a2,a3,a4}) {
                 <Link className="Link" to="/">{a2}</Link>
                 <Link className="Link" to="/">{a3}</Link>
                 <Link className="Link" to="/">{a4}</Link>
+                <Link className="Link" to="/">{a5}</Link>
+                <Link className="Link" to="/">{a6}</Link>
             </ul>
             <CartWidjet />
         </div>

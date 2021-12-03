@@ -16,7 +16,7 @@ const Header = ({title}) => {
         
         <div className="Header">
             <Link className="titulo" to="/">{title}</Link>
-            <NavBar a1="Guitarras" a2 ="Violines" a3="Bajo" a4="Flautas"/>                
+            <NavBar a1="Fender" a2 ="Yamaha" a3="Jackson" a4="Epiphone" a5="P.R.S" a6="Ibanez"/>                
         </div>
     )
 }
