@@ -107,6 +107,546 @@
                 "palanca": false,
                 "funda": "generica"
             }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Dinky",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonDinky.jpg",
+            "id":7,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Soloist",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonSoloist.jpg",
+            "id":8,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "rhoads",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonRhoads.jpg",
+            "id":9,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "KingV",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonKingv.jpg",
+            "id":10,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Juggernaut",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonJuggernaut.jpg",
+            "id":11,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Kelly",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonKelly.jpg",
+            "id":12,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Monarkh",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonMonarkh.jpg",
+            "id":13,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "San Dimas",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonSanDimas.png",
+            "id":14,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Warrior",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonWarrior.jpg",
+            "id":15,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Dominion",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonDominion.png",
+            "id":16,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Star",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonStar.jpg",
+            "id":17,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "JACKSON",
+            "modelo": "Shadowcaster",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/jacksonShadowcaster.jpg",
+            "id":18,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "EPIPHONE",
+            "modelo": "Les Paul",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/epiphoneLesPaul.jpg",
+            "id":19,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "EPIPHONE",
+            "modelo": "SG",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/epiphoneSg.jpg",
+            "id":20,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "EPIPHONE",
+            "modelo": "ES",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/epiphoneEs.jpg",
+            "id":21,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "EPIPHONE",
+            "modelo": "Firebird",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/epiphoneFirebird.jpg",
+            "id":22,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "EPIPHONE",
+            "modelo": "Explorer",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/epiphoneExplorer.jpg",
+            "id":23,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "P.R.S.",
+            "modelo": "SE",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/prsSe.jpg",
+            "id":24,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "P.R.S.",
+            "modelo": "S2",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/prsS2.jpg",
+            "id":25,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "P.R.S.",
+            "modelo": "CE",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/prsCe.jpg",
+            "id":26,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "P.R.S.",
+            "modelo": "Custom",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/prsCustom.jpg",
+            "id":27,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "AZ",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezAz.jpg",
+            "id":28,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "RG",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezRg.jpg",
+            "id":29,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "RGA",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezRga.jpg",
+            "id":30,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "S",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezS.jpg",
+            "id":31,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "X",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezX.jpg",
+            "id":32,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "Iceman",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezIceman.jpg",
+            "id":33,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "AR",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezAr.jpg",
+            "id":34,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "ART",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezArt.jpeg",
+            "id":35,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
+        },
+        {
+            "marca": "IBANEZ",
+            "modelo": "Mikro",
+            "precio": 75000,
+            "stock": 2,
+            "img":"/img/ibanezMikro.jpg",
+            "id":36,
+            "descripcion": {
+                "maderaCuerpo": "pino",
+                "maderaMastil": "maple",
+                "cuerdas": 6,
+                "color": "rojo, azul, negro",
+                "orientacion": "diestro",
+                "microfonos": 2,
+                "palanca": false,
+                "funda": "generica"
+            }
         }
     ],
     "bajos":[
