@@ -22,6 +22,7 @@ class App extends Component {
         <div className = "contenedor">
           <Routes >
             <Route  path="/" element={<ItemListContainer />}/>
+            <Route path="/category:id" element={<ItemDetailContainer />} />
             <Route path="/item:id" element={<ItemDetailContainer/>} />
           </Routes>
         </div>
