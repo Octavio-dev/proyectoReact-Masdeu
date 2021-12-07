@@ -11,7 +11,7 @@ export const ItemProvider = ({children}) => {
     useEffect(() => {
         fetch("productos.json")
         .then((response) => response.json())
-        .then((productos) => setProductos(productos.guitarras))
+        .then((data) => setProductos(data.guitarras))
     }, [])
 
     return(
