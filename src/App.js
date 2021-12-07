@@ -5,6 +5,8 @@ import "./App.css"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import { ItemProvider } from "./ItemContext";
+
 //Components
 import Header from "./components/Header/Header"
 import ItemListContainer from "./views/ItemListContainer/ItemListContainer";
@@ -16,6 +18,7 @@ class App extends Component {
 
   render() {
     return (
+      <ItemProvider>
       <Router>
       <div className="App">
         <Header title="MI SOL"  />
@@ -28,6 +31,7 @@ class App extends Component {
         </div>
       </div>
       </Router>
+      </ItemProvider>
     )
   }
 }
