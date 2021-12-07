@@ -12,7 +12,7 @@ export const ItemProvider = ({children}) => {
         fetch("productos.json")
         .then((response) => response.json())
         .then((productos) => setProductos(productos.guitarras))
-    })
+    }, [])
 
     return(
         <ItemContext.Provider value={[productos, setProductos]}>

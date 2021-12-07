@@ -2,9 +2,8 @@ import React, {Component} from "react";
 import "./App.css"
 
 //React Router Dom
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+//CONTEXT
 import { ItemProvider } from "./ItemContext";
 
 //Components
@@ -25,7 +24,7 @@ class App extends Component {
         <div className = "contenedor">
           <Routes >
             <Route  path="/" element={<ItemListContainer />}/>
-            <Route path="/category:id" element={<ItemDetailContainer />} />
+            <Route path="/category:marca" element={<ItemDetailContainer />} />
             <Route path="/item:id" element={<ItemDetailContainer/>} />
           </Routes>
         </div>

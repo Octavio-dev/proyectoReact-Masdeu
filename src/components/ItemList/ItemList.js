@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useContext} from "react";
+import React, {useContext} from "react";
 
 //CONTEXT
 import {ItemContext} from "../../ItemContext"
@@ -9,7 +9,6 @@ import Item from "../Item/Item"
 const ItemList = () => {
 
     const [productos, setProductos] = useContext(ItemContext)
-    console.log("hola")
 
     return(
         <>
