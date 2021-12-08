@@ -1,14 +1,19 @@
 import React, {useState} from "react";
+
+//ROUTER
+import { Link } from "react-router-dom";
+
+//SEMANTIC
 import { Icon } from 'semantic-ui-react'
 
-const ItemCount = ({stock, init}) => {
+const ItemCount = ({productos, init}) => {
 
     const [cantidad, setCantidad] = useState(init)
 
     //funciones para aumentar o disminuir la cantidad
     const aumentar = () => {
-        if(cantidad < stock){
-            setCantidad(cantidad + 1)
+        if(cantidad < productos.stock){
+            setCantidad(cantidad + 1 )
         }
     }
     const disminuir = () => {
@@ -17,15 +22,22 @@ const ItemCount = ({stock, init}) => {
         }
     }
 
+    const comprar = () => {
+      console.log("compraste algo")
+    }
+
     return(
         <>
             <div>
                 <p>Cantidad:{cantidad}</p>
-                <small>Stock:{stock}</small>
+                <small>Stock:{productos.stock}</small>
             </div>
             <div>
-                <button onClick={disminuir}> <Icon name="minus circle" size="large"/> </button>
-                <button onClick={aumentar}> <Icon name="plus circle" size="large"/> </button>
+                <div>
+                    <button onClick={disminuir}> <Icon name="minus circle" size="large"/> </button>
+                    <button onClick={aumentar}> <Icon name="plus circle" size="large"/> </button>
+                </div>
+                <Link to="/cart"><button onClick={comprar}>Agregar al carrito</button></Link>
             </div>   
         </>
     )

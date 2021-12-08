@@ -562,7 +562,7 @@
             "marca": "IBANEZ",
             "modelo": "X",
             "precio": 75000,
-            "stock": 2,
+            "stock": 0,
             "img":"/img/ibanezX.jpg",
             "id":32,
             "descripcion": {

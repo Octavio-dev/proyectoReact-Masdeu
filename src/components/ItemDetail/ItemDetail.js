@@ -19,7 +19,8 @@ const ItemDetail = ({productos}) => {
                 <CardDescription>${productos.precio}</CardDescription>
             </CardContent>
             <CardContent extra>
-                <ItemCount stock={productos.stock} init={0}/>
+                {productos.stock > 0 ? <ItemCount productos={productos} init={0}/> : <p>No hay Stock</p>}
+                
             </CardContent>    
         </Card> 
     )
