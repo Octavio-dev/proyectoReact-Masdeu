@@ -1,8 +1,5 @@
 import React, {useState} from "react";
 
-//ROUTER
-import { Link } from "react-router-dom";
-
 //SEMANTIC
 import { Icon } from 'semantic-ui-react'
 
@@ -23,7 +20,7 @@ const ItemCount = ({productos, init}) => {
     }
 
     const comprar = () => {
-      console.log("compraste algo")
+        alert(`compraste una ${productos.marca} ${productos.modelo}`)
     }
 
     return(
@@ -37,7 +34,7 @@ const ItemCount = ({productos, init}) => {
                     <button onClick={disminuir}> <Icon name="minus circle" size="large"/> </button>
                     <button onClick={aumentar}> <Icon name="plus circle" size="large"/> </button>
                 </div>
-                <Link to="/cart"><button onClick={comprar}>Agregar al carrito</button></Link>
+                <button onClick={comprar}>Agregar al carrito</button>
             </div>   
         </>
     )
