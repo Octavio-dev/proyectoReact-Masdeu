@@ -1,0 +1,14 @@
+.CartContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CartTitle{
+    font-size: 8rem;
+}
+
+.CartProducts{
+    margin: 3rem 2rem;
+}
