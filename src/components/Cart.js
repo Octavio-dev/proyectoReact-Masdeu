@@ -2,24 +2,26 @@ import React from "react";
 
 const Cart = ({info}) => {
 
+    console.log(info)
 
     const borrar = () => {
 
-        if (info.cantidad > 1){
+        if (info.cantidad > 0){
             info.cantidad--
-        } else{
-            info.cantidad = null
-        }
+        } 
     }
 
     return(
         <>
+        {info.cantidad > 0 && 
             <div>
                 <p>producto : {info.marca} {info.modelo}</p>
                 <p>precio : {info.precio}</p>
                 <p>cantidad {info.cantidad}: </p>
                 <button onClick={borrar}>eliminar</button>
             </div>
+        }
+            
         </>
     )
 }
