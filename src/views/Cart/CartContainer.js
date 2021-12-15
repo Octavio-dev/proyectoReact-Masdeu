@@ -11,17 +11,17 @@ import Cart from "../../components/Cart";
 
 const CartContainer = () => {
 
+    const precioTotal = carro.reduce( (acc, prod) => acc += prod.cantidad * prod.precio, 0)
+
     return(
         <div className="CartContainer">
-            <div >
                 <h1 className="CartTitle">CARRITO</h1>
-            </div>
             <div className="CartProducts">
                 {carro.length > 0 && carro.map((car) => <Cart info={car} key={car.id}/>)}
             </div>
             <div className="CartTotal">
-                <small>Total :<strong>0</strong></small>
-                <div>
+                <small>Total :<strong>{precioTotal}</strong></small>
+                <div className="CartButtons">
                     <button>Borrar todo</button>
                     <button>Comprar todo</button>
                 </div>
