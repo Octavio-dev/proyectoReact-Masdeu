@@ -23,10 +23,10 @@ const CartContainer = () => {
             </div>
             <div className="CartTotal">
                 <small>Total :<strong>{precioTotal}</strong></small>
-                <div className="CartButtons">
+                <form className="CartButtons">
                     <button>Borrar todo</button>
                     <button>Comprar todo</button>
-                </div>
+                </form>
             </div>
         </div>
     )
