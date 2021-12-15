@@ -32,3 +32,9 @@
 .iconCart{
     position: absolute;
 }
+
+.totalProd{
+    position: absolute;
+    bottom: 0;
+    color: antiquewhite;
+}

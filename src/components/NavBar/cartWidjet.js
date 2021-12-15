@@ -16,7 +16,7 @@ function CartWidjet() {
            <Link to="/cart">
                 <button className="cart">
                     <Icon className="iconCart" name = "shopping cart" color ="yellow" size="big"/>
-                    <small>{totalProd}</small>
+                    <small className="totalProd">{totalProd}</small>
                 </button>
            </Link>
     )
