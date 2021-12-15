@@ -35,7 +35,7 @@ const ItemCount = ({productos, init}) => {
                     marca:productos.marca,
                     modelo:productos.modelo,
                     precio:productos.precio,
-                    cantidad:1
+                    cantidad:1 * cantidad
                 }) 
             }
         }
