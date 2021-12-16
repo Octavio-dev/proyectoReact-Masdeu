@@ -27,7 +27,7 @@ const ItemDetailContainer = () => {
 
     return(
         <>
-         <ItemDetail arrayFiltrado={arrayFiltrado} key={arrayFiltrado.id}/>
+         <ItemDetail arrayFiltrado={arrayFiltrado} />
         </>
     )
 }
