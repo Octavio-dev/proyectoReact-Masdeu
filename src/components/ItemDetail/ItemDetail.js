@@ -8,20 +8,21 @@ import ItemCount from "../ItemCount/ItemCount";
 
 import {Card, Image, CardContent,CardHeader,CardDescription} from "semantic-ui-react"
 
-const ItemDetail = ({productos}) => {
+const ItemDetail = ({arrayFiltrado}) => {
+
+    console.log(arrayFiltrado)
 
     return(
         <Card>
-            <Image src={productos.img} />
+            <Image src={arrayFiltrado.img} />
             <CardContent>
-                <CardHeader>{productos.marca}</CardHeader>
-                <CardDescription>{productos.modelo}</CardDescription>
-                <CardDescription>${productos.precio}</CardDescription>
+                <CardHeader>{arrayFiltrado.marca}</CardHeader>
+                <CardDescription>{arrayFiltrado.modelo}</CardDescription>
+                <CardDescription>${arrayFiltrado.precio}</CardDescription>
             </CardContent>
             <CardContent extra>
-                {productos.stock > 0 ? <ItemCount productos={productos} init={0}/> : <p>No hay Stock</p>}
-                
-            </CardContent>    
+                {arrayFiltrado.stock > 0 ? <ItemCount productos={arrayFiltrado} init={0}/> : <p>No hay Stock</p>}              
+            </CardContent>  
         </Card> 
     )
 }

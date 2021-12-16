@@ -1,32 +1,34 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useContext} from "react";
 import { useParams } from "react-router";
 
 //componentes
 
 import ItemDetail from "../../components/ItemDetail/ItemDetail"
 
+//context
+import { ItemContext } from "../../ItemContext";
+
 //css
  import "./ItemDetailContainer.css"
 
 const ItemDetailContainer = () => {
 
-    const [productos, setProductos] = useState([])
+    const [productos, setProductos] = useContext(ItemContext)
     let {id} = useParams()
+    const [arrayFiltrado, setArrayFiltrado] = useState([])
+    const filtrado = productos.filter((prod) => id === prod.id)
+    console.log(filtrado)
 
     useEffect( () => {
+        
+        setArrayFiltrado(filtrado[0])        
 
-        setTimeout(() => {
-
-            fetch("productos.json")
-            .then((response) => response.json())
-            .then((json) => setProductos((json.guitarras)[id-1]))
-        },1000)
     },[id])
 
 
     return(
         <>
-         <ItemDetail productos={productos} key={productos.id}/>
+         <ItemDetail arrayFiltrado={arrayFiltrado} key={arrayFiltrado.id}/>
         </>
     )
 }
