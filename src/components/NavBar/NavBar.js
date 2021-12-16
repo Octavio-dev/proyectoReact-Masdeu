@@ -21,10 +21,10 @@ function NavBar ({a1,a2,a3,a4,a5, a6}) {
             <ul className="navBar">
                 <Link className="Link" to={"/category" + "fender"}>{a1}</Link>
                 <Link className="Link" to={"/category" + "yamaha"}>{a2}</Link>
-                <Link className="Link" to="/category">{a3}</Link>
-                <Link className="Link" to="/category">{a4}</Link>
-                <Link className="Link" to="/category">{a5}</Link>
-                <Link className="Link" to="/category">{a6}</Link>
+                <Link className="Link" to={"/category" + "jackson"}>{a3}</Link>
+                <Link className="Link" to={"/category" + "epiphone"}>{a4}</Link>
+                <Link className="Link" to={"/category" + "p.r.s"}>{a5}</Link>
+                <Link className="Link" to={"/category" + "ibanez"}>{a6}</Link>
             </ul>
             <CartWidjet />
         </div>
