@@ -16,11 +16,10 @@ const ItemDetailContainer = () => {
     const [productos, setProductos] = useContext(ItemContext)
     let {id} = useParams()
     const [arrayFiltrado, setArrayFiltrado] = useState([])
-    const filtrado = productos.filter((prod) => id === prod.id)
-    console.log(filtrado)
-
+    
     useEffect( () => {
         
+        const filtrado = productos.filter((prod) => id === prod.id)
         setArrayFiltrado(filtrado[0])        
 
     },[id])

@@ -12,6 +12,7 @@ import Header from "./components/Header/Header"
 import ItemListContainer from "./views/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./views/ItemDetailContainer/ItemDetailContainer";
 import CartContainer from "./views/Cart/CartContainer";
+import ItemFilter from "./views/ItemFilter/ItemFilter";
 
 
 
@@ -27,7 +28,7 @@ class App extends Component {
         <div className = "contenedor">
           <Routes >
             <Route  path="/" element={<ItemListContainer />}/>
-            <Route path="/category:id" element={<ItemDetailContainer />} />
+            <Route path="/category:marca" element={<ItemFilter />} />
             <Route path="/item:id" element={<ItemDetailContainer/>} />
             <Route path="/cart" element={<CartContainer />} />
           </Routes>

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext} from "react";
 
 //Router
 import { Link } from "react-router-dom";
+
+//context
+import { ItemContext } from "../../ItemContext";
 
 //CSS
 import "./NavBar.css"
@@ -11,11 +14,13 @@ import CartWidjet from "./cartWidjet";
 
 function NavBar ({a1,a2,a3,a4,a5, a6}) {
 
+    const [productos, setProductos] = useContext(ItemContext)
+
     return(
         <div className="navContenedor">
             <ul className="navBar">
-                <Link className="Link" to="/category">{a1}</Link>
-                <Link className="Link" to="/category">{a2}</Link>
+                <Link className="Link" to={"/category" + "fender"}>{a1}</Link>
+                <Link className="Link" to={"/category" + "yamaha"}>{a2}</Link>
                 <Link className="Link" to="/category">{a3}</Link>
                 <Link className="Link" to="/category">{a4}</Link>
                 <Link className="Link" to="/category">{a5}</Link>
