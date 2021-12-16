@@ -9,6 +9,7 @@ import Item from "../Item/Item"
 const ItemList = () => {
 
     const [productos, setProductos] = useContext(ItemContext)
+    console.log(productos)
 
     return(
         <>
