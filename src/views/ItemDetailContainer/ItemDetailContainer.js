@@ -7,7 +7,7 @@ import { useParams } from "react-router";
 import ItemDetail from "../../components/ItemDetail/ItemDetail"
 
 //context
-import { ItemContext } from "../../ItemContext";
+import { ItemContext } from "../../context/ItemContext";
 
 //css
  import "./ItemDetailContainer.css"

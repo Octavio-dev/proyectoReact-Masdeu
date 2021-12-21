@@ -7,14 +7,14 @@ import "./App.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //CONTEXT
-import { ItemProvider } from "./ItemContext";
-import { CartProvider } from "./cartContext";
+import { ItemProvider } from "./context/ItemContext";
+import { CartProvider } from "./context/cartContext";
 
 //Components
 import Header from "./components/Header/Header"
 import ItemListContainer from "./views/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./views/ItemDetailContainer/ItemDetailContainer";
-import CartContainer from "./views/Cart/CartContainer";
+import CartContainer from "./views/CartContainer/CartContainer";
 import ItemFilter from "./views/ItemFilter/ItemFilter";
 
 

@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 
 //CONTEXT
-import {ItemContext} from "../../ItemContext"
+import {ItemContext} from "../../context/ItemContext"
 
 //componentes
 import Item from "../Item/Item"

@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect } from "react";
 
 //Firebase
-import { db } from "./firebase/firebaseConfig";
+import { db } from "./../firebase/firebaseConfig";
 import {collection, query, getDocs} from "firebase/firestore"
 
 export const ItemContext = createContext()

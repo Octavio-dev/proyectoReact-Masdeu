@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cart = ({info}) => {
+const ItemCart = ({info}) => {
 
     const borrar = () => {
 
@@ -24,4 +24,4 @@ const Cart = ({info}) => {
     )
 }
 
-export default Cart
+export default ItemCart

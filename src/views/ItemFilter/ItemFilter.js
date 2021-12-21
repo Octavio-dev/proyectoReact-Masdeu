@@ -4,7 +4,7 @@ import React, {useContext, useEffect, useState} from "react";
 import { useParams } from "react-router-dom";
 
 //CONTEXT
-import {ItemContext} from "../../ItemContext"
+import {ItemContext} from "../../context/ItemContext"
 
 //componentes
 import Item from "../../components/Item/Item"

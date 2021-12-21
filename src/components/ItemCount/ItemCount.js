@@ -1,7 +1,7 @@
 import React, {useState, useContext} from "react";
 
 //context
-import { CartContext } from "../../cartContext";
+import { CartContext } from "../../context/cartContext";
 
 //SEMANTIC
 import { Icon } from 'semantic-ui-react'
