@@ -2,8 +2,6 @@ import React from "react";
 
 const Cart = ({info}) => {
 
-    console.log(info)
-
     const borrar = () => {
 
         if (info.cantidad > 0){

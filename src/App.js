@@ -1,8 +1,11 @@
 import React, {Component} from "react";
+
+//CSS
 import "./App.css"
 
 //React Router Dom
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 //CONTEXT
 import { ItemProvider } from "./ItemContext";
 import { CartProvider } from "./cartContext";

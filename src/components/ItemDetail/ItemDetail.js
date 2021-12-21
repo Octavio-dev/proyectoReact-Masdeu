@@ -1,16 +1,12 @@
 import React from "react";
 
-//comnponentes
-
+//componentes
 import ItemCount from "../ItemCount/ItemCount";
 
 //semantic UI
-
 import {Card, Image, CardContent,CardHeader,CardDescription} from "semantic-ui-react"
 
 const ItemDetail = ({arrayFiltrado}) => {
-
-    console.log(arrayFiltrado)
 
     return(
         <Card>
@@ -24,8 +20,7 @@ const ItemDetail = ({arrayFiltrado}) => {
                 <CardDescription><strong>CANT. MICROFONOS:</strong> {arrayFiltrado.microfonos}</CardDescription>
                 <CardDescription><strong>ORIENTACION:</strong> {arrayFiltrado.orientacion}</CardDescription>
                 <CardDescription><strong>PALANCA:</strong> {arrayFiltrado.palanca}</CardDescription>
-                <CardDescription><strong>FUNDA :</strong>{arrayFiltrado.funda}</CardDescription>
-                
+                <CardDescription><strong>FUNDA :</strong>{arrayFiltrado.funda}</CardDescription>               
             </CardContent>
             <CardContent extra>
             <CardDescription><strong>PRECIO: $</strong>{arrayFiltrado.precio}</CardDescription>

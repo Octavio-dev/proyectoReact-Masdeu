@@ -1,4 +1,6 @@
 import React, {useContext, useEffect, useState} from "react";
+
+//Router
 import { useParams } from "react-router-dom";
 
 //CONTEXT
@@ -9,7 +11,7 @@ import Item from "../../components/Item/Item"
 
 const ItemFilter = () => {
 
-    const [productos, setProductos] = useContext(ItemContext)
+    const [productos] = useContext(ItemContext)
     const [items, setItems] = useState([])
     let {marca} = useParams()
 

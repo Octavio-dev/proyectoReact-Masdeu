@@ -1,15 +1,15 @@
 import React, {useState, useContext} from "react";
 
 //context
-import { CartContext, carro} from "../../cartContext";
+import { CartContext } from "../../cartContext";
 
 //SEMANTIC
 import { Icon } from 'semantic-ui-react'
 
 const ItemCount = ({productos, init}) => {
-
+    
     const [cantidad, setCantidad] = useState(init)
-    const [carrito, setCarrito] = useContext(CartContext)
+    const [carro] = useContext(CartContext)
 
     //funciones para aumentar o disminuir la cantidad
     const aumentar = () => {
@@ -23,22 +23,22 @@ const ItemCount = ({productos, init}) => {
         }
     }
 
-        const comprar = () => {
+    const comprar = () => {
         
-            const enCarro = carro.find((prod) => prod.id === productos.id)
-            
-            if(enCarro){
-                enCarro.cantidad++
-            } else{      
-                carro.push({
-                    id:productos.id,
-                    marca:productos.marca,
-                    modelo:productos.modelo,
-                    precio:productos.precio,
-                    cantidad:1 * cantidad
-                }) 
-            }
+        const enCarro = carro.find((prod) => prod.id === productos.id)
+             
+        if(enCarro){
+            enCarro.cantidad++
+        } else{      
+            carro.push({
+                id:productos.id,
+                marca:productos.marca,
+                modelo:productos.modelo,
+                precio:productos.precio,
+                cantidad:1 * cantidad
+            }) 
         }
+    }
 
     return(
         <>

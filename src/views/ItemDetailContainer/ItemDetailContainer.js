@@ -1,8 +1,9 @@
 import React, {useEffect, useState, useContext} from "react";
+
+//ROUTER
 import { useParams } from "react-router";
 
 //componentes
-
 import ItemDetail from "../../components/ItemDetail/ItemDetail"
 
 //context
@@ -13,7 +14,7 @@ import { ItemContext } from "../../ItemContext";
 
 const ItemDetailContainer = () => {
 
-    const [productos, setProductos] = useContext(ItemContext)
+    const [productos] = useContext(ItemContext)
     let {id} = useParams()
     const [arrayFiltrado, setArrayFiltrado] = useState([])
     
