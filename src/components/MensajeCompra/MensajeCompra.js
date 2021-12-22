@@ -14,7 +14,7 @@ const MensajeCompra = ({id, values}) => {
     return(
         <>
         <h2>Gracias por tu Compra</h2>
-        {carro.map((prod) => <DetalleMensaje prod={prod}/>)}
+        {carro.map((prod) => <DetalleMensaje prod={prod} key={prod.id}/>)}
         <h3>detalles del comprador</h3>
         <ul>
             <li>nombre: {values.nombre}</li>

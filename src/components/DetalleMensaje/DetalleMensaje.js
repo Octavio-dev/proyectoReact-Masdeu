@@ -1,9 +1,9 @@
-import React, {useContext} from "react";
-
+import React  from "react";
 
 const DetalleMensaje = ({prod}) => {
 
     const precio = prod.precio * prod.cantidad
+
     return(
         <>
             <p>Compraste {prod.cantidad} {prod.marca} {prod.modelo}</p>

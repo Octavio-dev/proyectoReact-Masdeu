@@ -19,13 +19,13 @@ const initialState = {
 
 const Formulario = () => {
 
-    const [values, setValues] = useState(initialState)
+    const [usuarios, setUsuarios] = useState(initialState)
     const [idCompra, setIdCompra] = useState("")
     const [cargando, setCargando] = useState(false)
 
     const change = (e) => {
         const {name,value} = e.target
-        setValues({...values, [name]:value})
+        setUsuarios({...usuarios, [name]:value})
     }
 
     const submit = async (e) => {
@@ -33,8 +33,9 @@ const Formulario = () => {
         e.preventDefault()
 
         const docRef = await addDoc(collection(db,"compras"),{
-            values,
+            usuarios
         })
+
         setIdCompra(docRef)
         setTimeout(() => {
             setCargando(false)
@@ -46,26 +47,26 @@ const Formulario = () => {
             <input 
                 placeholder="nombre" 
                 name="nombre" 
-                value={values.nombre}
+                value={usuarios.nombre}
                 onChange={change}
             />
             <input
                 placeholder="apellido" 
                 name="apellido" 
-                value={values.apellido}
+                value={usuarios.apellido}
                 onChange={change}
             />
             <input 
                 placeholder="Email" 
                 name="email" 
-                value={values.email} 
+                value={usuarios.email} 
                 onChange={change}
             />
             <input 
                 type="password"
                 placeholder="contraseña" 
                 name="contraseña" 
-                value={values.contraseña} 
+                value={usuarios.contraseña} 
                 onChange={change}
             />
             <button>enviar</button>
@@ -73,7 +74,7 @@ const Formulario = () => {
                 <Loader active inverted/>
             ) : (
                 idCompra.id && (
-                    < MensajeCompra id={idCompra} values = {values}/>
+                    < MensajeCompra id={idCompra} values = {usuarios}/>
                 )
             )}
         </form>
