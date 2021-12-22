@@ -1,10 +1,8 @@
-.ItemContainer{
+.ItemFilter{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    color: aquamarine;
     text-align: center;
     min-height: 75vh;
     height: auto;

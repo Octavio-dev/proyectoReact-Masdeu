@@ -1,5 +1,8 @@
 import React, {useEffect, useState, useContext} from "react";
 
+//css
+import "./ItemDetailContainer.css"
+
 //ROUTER
 import { useParams } from "react-router";
 
@@ -27,9 +30,9 @@ const ItemDetailContainer = () => {
 
 
     return(
-        <>
+        <div className="ItemDetailContainer">
          <ItemDetail arrayFiltrado={arrayFiltrado} />
-        </>
+        </div>
     )
 }
 

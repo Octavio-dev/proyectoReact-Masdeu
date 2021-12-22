@@ -1,5 +1,8 @@
 import React, {useState, useContext} from "react";
 
+//css
+import "./ItemCount.css"
+
 //context
 import { CartContext } from "../../context/cartContext";
 
@@ -42,16 +45,16 @@ const ItemCount = ({productos, init}) => {
 
     return(
         <>
-            <div>
+            <div className="Cantidad">
                 <p>Cantidad:{cantidad}</p>
                 <small>Stock:{productos.stock}</small>
             </div>
-            <div>
+            <div >
                 <div>
-                    <button onClick={disminuir}> <Icon name="minus circle" size="large"/> </button>
-                    <button onClick={aumentar}> <Icon name="plus circle" size="large"/> </button>
+                    <button className="botones" onClick={disminuir}> <Icon name="minus circle" size="large"/> </button>
+                    <button className="botones" onClick={aumentar}> <Icon name="plus circle" size="large"/> </button>
                 </div>
-                <button onClick={comprar}>Agregar al carrito</button>
+                <button className="compra" onClick={comprar}>Agregar al carrito</button>
             </div>   
         </>
     )

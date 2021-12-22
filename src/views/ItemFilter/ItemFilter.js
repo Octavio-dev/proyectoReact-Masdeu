@@ -1,5 +1,8 @@
 import React, {useContext, useEffect, useState} from "react";
 
+//css
+import "./ItemFilter.css"
+
 //Router
 import { useParams } from "react-router-dom";
 
@@ -22,10 +25,10 @@ const ItemFilter = () => {
     
 
     return(
-        <>
+        <div className="ItemFilter">
             {items.map((producto) =><Item  producto={producto} key={producto.id}/> )}
 
-        </>
+        </div>
     )
 }
 

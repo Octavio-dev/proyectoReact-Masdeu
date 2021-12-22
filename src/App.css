@@ -4,16 +4,4 @@
   background-attachment: fixed;
 }
 
-.contenedor{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  color: aquamarine;
-  text-align: center;
-  min-height: 75vh;
-  height: auto;
-  width: 100%;
-  padding: 2rem 5rem;
-}
+
