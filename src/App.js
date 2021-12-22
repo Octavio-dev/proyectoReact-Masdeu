@@ -12,10 +12,13 @@ import { CartProvider } from "./context/cartContext";
 
 //Components
 import Header from "./components/Header/Header"
+
+//Views
 import ItemListContainer from "./views/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./views/ItemDetailContainer/ItemDetailContainer";
 import CartContainer from "./views/CartContainer/CartContainer";
 import ItemFilter from "./views/ItemFilter/ItemFilter";
+import Formulario from "./views/Formulario/Formulario";
 
 
 
@@ -34,6 +37,7 @@ class App extends Component {
             <Route path="/category:marca" element={<ItemFilter />} />
             <Route path="/item:id" element={<ItemDetailContainer/>} />
             <Route path="/cart" element={<CartContainer />} />
+            <Route path="/formulario" element={<Formulario />} />
           </Routes>
         </div>
       </div>

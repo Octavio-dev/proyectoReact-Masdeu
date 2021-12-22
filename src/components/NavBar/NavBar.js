@@ -20,6 +20,7 @@ const NavBar = ({a1,a2,a3,a4,a5, a6}) => {
                 <Link className="Link" to={"/categoryepiphone"}>{a4}</Link>
                 <Link className="Link" to={"/categoryp.r.s"}>{a5}</Link>
                 <Link className="Link" to={"/categoryibanez"}>{a6}</Link>
+                <Link className="Link" to="/formulario">form</Link>
             </ul>
             <CartWidjet />
         </div>
