@@ -5,4 +5,10 @@
 
 .formulario input {
     margin: .4rem;
+    text-align: center;
+}
+
+.finalizar{
+    color: yellow;
+    margin: 1rem;
 }

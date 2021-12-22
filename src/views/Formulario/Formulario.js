@@ -3,6 +3,9 @@ import React,{useState} from "react";
 //semantic
 import { Loader } from "semantic-ui-react";
 
+//css
+import "./Formulario.css"
+
 //components
 import MensajeCompra from "../../components/MensajeCompra/MensajeCompra";
 
@@ -43,7 +46,10 @@ const Formulario = () => {
     }
 
     return(
-        <form onSubmit={submit}>
+        <div>
+            <h3 className="finalizar">completa tus datos para finalizar la compra</h3>
+
+        <form onSubmit={submit} className="formulario">
             <input 
                 placeholder="nombre" 
                 name="nombre" 
@@ -78,6 +84,7 @@ const Formulario = () => {
                 )
             )}
         </form>
+        </div>
     )
 }
 
