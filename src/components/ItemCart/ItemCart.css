@@ -1,0 +1,7 @@
+.ItemCart{
+    background: rgba(0, 0, 0, .8);
+    padding: 1.5rem;
+    min-width: 20rem;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+}

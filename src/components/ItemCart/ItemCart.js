@@ -1,5 +1,10 @@
 import React from "react";
 
+//semantic
+import { Icon } from "semantic-ui-react";
+//css 
+import "./ItemCart.css"
+
 const ItemCart = ({info}) => {
 
     const borrar = () => {
@@ -12,11 +17,11 @@ const ItemCart = ({info}) => {
     return(
         <>
         {info.cantidad > 0 && 
-            <div>
+            <div className="ItemCart">
                 <p>producto : {info.marca} {info.modelo}</p>
                 <p>precio : {info.precio}</p>
                 <p>cantidad {info.cantidad}: </p>
-                <button onClick={borrar}>eliminar</button>
+                <button onClick={borrar}><Icon name="trash"/></button>
             </div>
         }
             

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 75vh;
     height: auto;
     width: auto;
 }
@@ -21,7 +22,9 @@
 }
 
 .CartProducts{
-    margin: 3rem 2rem;
+    display: flex;
+    color: yellow;
+    text-align: center;
 }
 
 .CartButtons{
