@@ -28,7 +28,7 @@ const CartContainer = () => {
             </div>
             <div className="CartTotal">
                 <small>cantidad total :<strong>{cantTotal}</strong></small>
-                <small>Precio Final :<strong>{precioTotal}</strong></small>
+                <small>Precio Final :$<strong>{precioTotal}</strong></small>
                 <form className="CartButtons">
                     <button>Borrar todo</button>
                     <Link to="formulario">Comprar todo</Link>

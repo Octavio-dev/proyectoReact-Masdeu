@@ -14,17 +14,26 @@
     font-size: 8rem;
 }
 
+.CartProducts{
+    display: flex;
+    color: yellow;
+    text-align: center;
+}
+
 .CartTotal{
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: 2rem;
-}
-
-.CartProducts{
-    display: flex;
     color: yellow;
     text-align: center;
+    font-size: 1.3em;
+}
+
+.CartTotal small{
+    background-color: rgba(0, 0, 0, .8);
+    padding: .6rem;
+    margin: .3rem;
 }
 
 .CartButtons{

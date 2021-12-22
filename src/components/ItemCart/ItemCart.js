@@ -20,7 +20,7 @@ const ItemCart = ({info}) => {
             <div className="ItemCart">
                 <p>producto : {info.marca} {info.modelo}</p>
                 <p>precio : {info.precio}</p>
-                <p>cantidad {info.cantidad}: </p>
+                <p>cantidad: {info.cantidad} </p>
                 <button onClick={borrar}><Icon name="trash"/></button>
             </div>
         }
