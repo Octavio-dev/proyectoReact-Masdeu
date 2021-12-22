@@ -1,17 +1,20 @@
 import React, {useContext} from "react";
 
+//Components
+import DetalleMensaje from "../DetalleMensaje/DetalleMensaje"
+
 //context
 import { CartContext } from "../../context/cartContext";
+
 
 const MensajeCompra = ({id, values}) => {
 
     const [carro] = useContext(CartContext)
-    console.log(carro)
 
     return(
         <>
         <h2>Gracias por tu Compra</h2>
-        <p>compraste {carro.cantidad} {carro.marca} {carro.modelo} a ${carro.precio}</p>
+        {carro.map((prod) => <DetalleMensaje prod={prod}/>)}
         <h3>detalles del comprador</h3>
         <ul>
             <li>nombre: {values.nombre}</li>

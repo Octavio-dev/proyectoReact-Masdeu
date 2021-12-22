@@ -10,6 +10,9 @@ import {  CartContext } from "../../context/cartContext";
 import ItemCart from "../../components/ItemCart/ItemCart";
 import CarroVacio from "../../components/CarroVacio/CarroVacio";
 
+//Router
+import { Link, Outlet } from "react-router-dom";
+
 const CartContainer = () => {
 
     const [carro] = useContext(CartContext)
@@ -28,8 +31,12 @@ const CartContainer = () => {
                 <small>Precio Final :<strong>{precioTotal}</strong></small>
                 <form className="CartButtons">
                     <button>Borrar todo</button>
-                    <button>Comprar todo</button>
+                    <Link to="formulario">Comprar todo</Link>
                 </form>
+            </div>
+
+            <div>
+                <Outlet />
             </div>
         </div>
     )
